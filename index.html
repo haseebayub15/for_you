@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Maryam ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Quicksand:wght@400;500;600;700&display=swap');
+
+:root{
+  --pink:#f6b8cf; --light:#fff5f9; --rose:#d96d99; --deep:#93445f;
+  --cream:#fffaf5; --white:#fff; --shadow:0 14px 40px rgba(181,83,120,.16);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; color:#6d4050; font-family:"Quicksand",sans-serif;
+  background:
+    radial-gradient(circle at 15% 12%,#ffdbe9 0 8%,transparent 9%),
+    radial-gradient(circle at 85% 28%,#ffe8f0 0 10%,transparent 11%),
+    linear-gradient(180deg,#fff7fa,#fff0f6 55%,#fff9f3);
+  overflow-x:hidden;
+}
+body:before{
+  content:"🌸  ♡  🎀  🌷  ♡  🌸  🎀  ♡  🌷  🌸  ♡  🎀";
+  position:fixed; inset:12px 0 auto; text-align:center; opacity:.25;
+  letter-spacing:18px; pointer-events:none; z-index:0;
+}
+nav{
+  position:sticky; top:0; z-index:20; backdrop-filter:blur(14px);
+  background:rgba(255,247,250,.82); border-bottom:1px solid #f8d6e3;
+  padding:13px 20px; display:flex; justify-content:center; gap:22px; flex-wrap:wrap;
+}
+nav a{color:var(--deep); text-decoration:none; font-weight:700; font-size:.88rem}
+.hero{
+  min-height:88vh; display:grid; place-items:center; text-align:center;
+  padding:90px 22px 55px; position:relative;
+}
+.hero-card{max-width:790px; position:relative; z-index:1}
+.kitty{
+  width:118px; height:92px; margin:0 auto 18px; background:white;
+  border:3px solid #7c5964; border-radius:52% 52% 48% 48%; position:relative;
+  box-shadow:var(--shadow);
+}
+.kitty:before,.kitty:after{content:"";position:absolute;top:-15px;width:34px;height:39px;background:white;border:3px solid #7c5964;z-index:-1}
+.kitty:before{left:7px;transform:rotate(-25deg);border-radius:7px 80% 10px 80%}
+.kitty:after{right:7px;transform:rotate(25deg);border-radius:80% 7px 80% 10px}
+.eye{position:absolute;top:40px;width:8px;height:12px;background:#61454e;border-radius:50%}
+.e1{left:30px}.e2{right:30px}
+.nose{position:absolute;left:53px;top:55px;width:10px;height:7px;background:#f5c84c;border:2px solid #61454e;border-radius:50%}
+.bow{position:absolute;right:-18px;top:5px;font-size:38px}
+.whisk{position:absolute;width:28px;height:2px;background:#7c5964;top:54px}
+.w1{left:-21px;transform:rotate(9deg)}.w2{left:-22px;top:65px;transform:rotate(-7deg)}
+.w3{right:-21px;transform:rotate(-9deg)}.w4{right:-22px;top:65px;transform:rotate(7deg)}
+h1,h2,h3{font-family:"DM Serif Display",serif;font-weight:400}
+h1{font-size:clamp(3.1rem,9vw,6.7rem);line-height:.92;color:var(--deep);margin:10px 0}
+.hero p{font-size:1.08rem;line-height:1.8;max-width:620px;margin:22px auto}
+.pill{display:inline-block;background:white;border:1px solid #f4c6d7;border-radius:999px;padding:9px 15px;font-size:.82rem;box-shadow:0 7px 22px #e9abc42a}
+.scroll{display:inline-block;margin-top:22px;color:var(--rose);font-weight:700;text-decoration:none}
+section{max-width:1050px;margin:auto;padding:78px 22px;position:relative}
+.section-title{text-align:center;font-size:clamp(2.2rem,5vw,3.8rem);color:var(--deep);margin:0 0 12px}
+.subtitle{text-align:center;max-width:620px;margin:0 auto 38px;line-height:1.7}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.photo{
+  background:white;padding:10px 10px 38px;border-radius:8px;box-shadow:var(--shadow);
+  transform:rotate(-2deg); min-height:310px; position:relative;
+}
+.photo:nth-child(even){transform:rotate(2deg)}
+.photo img{width:100%;height:265px;object-fit:cover;border-radius:4px;background:#f9dbe7}
+.photo .placeholder{height:265px;display:grid;place-items:center;background:linear-gradient(135deg,#ffe5ef,#fff7fa);font-size:3rem;border-radius:4px}
+.photo span{position:absolute;bottom:11px;left:0;right:0;text-align:center;font-family:"DM Serif Display";color:#9b5770}
+.love-card,.letter{
+  background:rgba(255,255,255,.88);border:1px solid #f5cddd;border-radius:30px;
+  box-shadow:var(--shadow);padding:clamp(24px,6vw,58px);position:relative;
+}
+.love-card:before,.letter:before{content:"🌸";position:absolute;left:-17px;top:-20px;font-size:44px}
+.love-card:after,.letter:after{content:"🎀";position:absolute;right:-14px;bottom:-18px;font-size:42px}
+.love-list{columns:2;column-gap:40px;margin:28px 0 0;padding:0;list-style:none}
+.love-list li{break-inside:avoid;margin:0 0 15px;padding-left:25px;position:relative;line-height:1.6}
+.love-list li:before{content:"♡";position:absolute;left:0;color:#e678a4;font-weight:bold}
+.letter{font-size:1rem;line-height:2}
+.letter p:first-of-type:first-letter{font-family:"DM Serif Display";font-size:4rem;float:left;line-height:.8;padding:8px 8px 0 0;color:var(--rose)}
+.quote{text-align:center;font-family:"DM Serif Display";font-style:italic;font-size:clamp(1.5rem,4vw,2.4rem);color:var(--deep);padding:40px 10px}
+footer{text-align:center;padding:55px 20px 80px;color:#a4647c}
+.floating{position:fixed;z-index:0;opacity:.16;font-size:34px;animation:float 6s ease-in-out infinite}
+.f1{left:3%;top:28%}.f2{right:4%;top:52%;animation-delay:1.3s}.f3{left:5%;bottom:8%;animation-delay:2.4s}
+@keyframes float{50%{transform:translateY(-18px) rotate(8deg)}}
+@media(max-width:720px){.gallery{grid-template-columns:1fr}.photo{max-width:420px;width:100%;margin:auto}.love-list{columns:1}nav{gap:12px}.hero{min-height:82vh}}
+</style>
+</head>
+<body>
+<div class="floating f1">🌷</div><div class="floating f2">🌸</div><div class="floating f3">🎀</div>
+
+<nav>
+  <a href="#memories">our pictures ♡</a>
+  <a href="#love">everything i love</a>
+  <a href="#changed">how you changed me</a>
+  <a href="#heart">my heart</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-card">
+    <div class="kitty"><i class="eye e1"></i><i class="eye e2"></i><i class="nose"></i><i class="whisk w1"></i><i class="whisk w2"></i><i class="whisk w3"></i><i class="whisk w4"></i><b class="bow">🎀</b></div>
+    <span class="pill">made with all my love ♡</span>
+    <h1>For Maryam</h1>
+    <p>A simple website i always wanted to make — for the memories, the little things I notice abt u, and all the words and things I never want to leave unsaid.</p>
+    <a class="scroll" href="#memories">open my heart ↓</a>
+  </div>
+</header>
+
+<section id="memories">
+    <h2 class="section-title">My Princess ♡</h2>
+
+    <div class="gallery">
+
+        <div class="photo">
+            <img src="pcs/car.jpeg" alt="Maryam">
+            <span>pretty girl ♡</span>
+        </div>
+
+        <div class="photo">
+            <img src="pcs/mirror.jpeg" alt="Maryam">
+            <span>my princess 🎀</span>
+        </div>
+
+        <div class="photo">
+            <img src="pcs/pink shirt.jpeg" alt="Maryam">
+            <span>one of my favourites ♡</span>
+        </div>
+
+        <div class="photo">
+            <img src="pcs/shop one.jpeg" alt="Maryam">
+            <span>Us 🌸</span>
+        </div>
+
+        <div class="photo">
+            <img src="pcs/sofa.jpeg" alt="Maryam">
+            <span>always that sofa spot ♡</span>
+        </div>
+
+        <div class="photo">
+            <img src="pcs/teddy.jpeg" alt="Maryam">
+            <span>always beautiful 💗</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="love">
+  <div class="love-card">
+    <h2 class="section-title">Everything I Love About You</h2>
+    <p class="subtitle">Not just the big things. Every tiny Maryam thing that made you, you.</p>
+    <ul class="love-list">
+      <li><b>Your eyes.</b> The first thing i noticed when i saw you at the station. I love how beautiful they are and how I could just look at you for ages without getting tired of your face. There was always something about looking into your wide brown eyes that made everything else disappear for a second.</li>
+      <li><b>Your smile.</b> Not just because I think it's beautiful, but because of how much I loved knowing I was the reason behind it. Seeing you genuinely happy would fully change my whole mood.</li>
+      <li><b>Your laugh.</b> Especially the proper laugh where you couldn't hide. The loud one where u start spitting everywhere. I loved hearing u laugh and I loved trying to bring it out of you.</li>
+      <li><b>Your little lisp.</b> I love the tiny way it comes through when you say certain things. It's somet small noone else would notice but its so cute and makes u sound like a baby in the cutest best way possible.</li>
+      <li><b>The way you mispronounce words</b> Such a stupidly small thing, but that's why I love it. Its like when u say 'salmon' or other words its ill never hear the same again</li>
+      <li><b>Your smell.</b> The way your perfume became so familiar to me. Sometimes Ill smell certain scents and perfumes i will forver be reminded of you.</li>
+      <li><b>Your hair.</b> When it’s done, when it’s messy, when it’s dyed, when it isn’t, when you have it down and especially when you tie it up. And that one cutie curl on the side w the flower too.</li>
+      <li><b>Your lashes.</b> This part always used to make ur eyes water. the most stressful part of ur routine but they always looked good and I love it when you stack them.</li>
+      <li><b>Your whole routine</b> I love watching u get ready all those little finishing touches come together. The way u gel your hair and line your lips giving u the sexiest look.</li>
+      <li><b>Your pink blush.</b> I love your pink blush. It makes you look so fucking pretty, literally like a princess.</li>
+      <li><b>Your style.</b> I love your dress sense. Your abayas, your matching flowers, your jewellery, your jhumkas, your normal outfits and even the kaftans u always wear. You always manage to make everything look so good on u.</li>
+      <li><b>Your body.</b> I love your body and ur figure. I love your waist especially and how slim and fit you always are, even still when ur not even trying.</li>
+      <li><b>Your warmth.</b> I love your warmth. Especially when we sleep together and I can feel how warm your body gets and how comfortable you become next to me. Even on the nights where I can’t sleep properly, I’d rather stay awake and appreciate every moment I get lying next to you.</li>
+      <li><b>You in your pyjamas.</b>I love your obsession with pyjamas. It’s genuinely one of the cutest things ever. the matching sets always look so good on u.</li>
+      <li><b>Your teddies.</b> I love your obsession with teddies and Hello Kitty. Its such a cute and girly obsession I love that side of you and ill never see teddies or hello kitty without thinking of u.</li>
+      <li><b>Your hands.</b>I love your hands. They’re so soft and beautiful and I love the way you hold my hand and play with it while i hold urs its geniunley one of the most intimate things ever</li>
+      <li><b>Your coffee and iced lattes.</b>Who are you without ur daily coffee, whether its from noors or homemade either way, I love your coffee obsession and your favourite iced latte with cold foam. I’m still sorry I didn’t get the syrup last time</li>
+      <li><b>Cookie.</b> I love how much you love Cookie. Watching the way you care for that cat and how much Cookie absolutely adores you says so much about how gentle and caring you actually are.</li>
+      <li><b>Your love for Lana Del Rey.</b> I especially love how deeply you connect with Lana Del Rey. I genuinely wish I could naturally resonate with somebody’s music as deeply as you do. You don’t just listen to music, you feel it and she will always be assosciated with you anytime i hear a song.</li>
+      <li><b>Bollywood.</b> I love your Bollywood obsession and especially how much you love jab tak hai jaan. You got me into bollywood after many years of not watchin anything</li>
+      <li><b>Your music.</b> I love your deep songs and all the acoustic and female versions you listen to, or the guitar melodies with the most meaningful lyrics. I was never into that stuff before you entered my life, but somehow you made it grow on me. You completely changed the way I listen to music i have so many songs that remind me of us and ill always think of u for that</li>
+      <li><b>Your confidence.</b> You’re yourself unapologetically. You don’t change yourself depending on who is around you and you don’t live your life constantly worrying about how somebody might judge you. Most of all I love how little you care about what people think of you.</li>
+      <li><b>Your boxing and gym side.</b> I love that you're not only soft and girly like everyone else you're strong too not just physically but mentally.</li>
+      <li><b>The love you have for your family.</b> I love how you talk about the people you love. Especially your dad and your family. There’s something about hearing the way you speak about the people closest to your heart that always made me wish I could be one of those people in your life forever. Ur love is something else</li>
+      <li><b>Your friendships.</b> I love hearing about how much u love ur friends; Marta or Nazia and the people in your world because getting to know you also meant slowly learning all the people, stories and tea that goes on in ur eventful life.</li>
+      <li><b>The way you made me feel wanted.</b> Throughout our relationship U made me feel like I was the only man in the world and that feeling meant more to me than I knew how to show at the time and i wish i couldve shown u better</li>
+      <li><b>The reassurance you gave me.</b> When we were together, your reassurance was incredible. I genuinely don’t remember sitting there questioning whether you loved me. I just felt loved not with grand gestures or gifts but with ur heart.</li>
+      <li><b>The time you gave me.</b> Every conversation, every time you chose to see me u gave me so much of ur time even when u just wanted to sleep. I appreciate now that someone's time is one of the most personal things they can give you and u gave me the most, thank you.</li>
+      <li><b>The way you loved me.</b> Whatever happens in life, I got to experience something real I got to know what being loved by you felt like and that became a beautiful part of my life that I will always be grateful I experienced.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="quote">“All the pretty stars shine for you, my love.” ✨<br><small style="font-family:'Quicksand';font-style:normal;font-size:.85rem"> Pretty When You Cry — Lana Del Rey</small></div>
+
+<section id="changes">
+  <div class="love-card">
+    <h2 class="section-title">The Ways You Changed Me 🌷</h2>
+    <p class="subtitle">You didn't just become part of my life. Loving you changed my view on life and the way I understand love itself.</p>
+
+    <div class="letter" style="box-shadow:none;border:none;background:transparent;padding:10px 0 0">
+      <p>You helped me realise that loving somebody isn't only about knowing in my own head that I love them. They need to be able to <i>feel</i> it too. You taught me how important it is to actually say what I feel, to show affection, to not be afraid of showing it, to give reassurance and to make the person I love feel chosen instead of assuming they should already know.</p>
+
+      <p>You made me realise how much the little things matter. Replying properly, choosing to making time, choosing them over others, planning things, showing up on time and when needed, being affectionate in public, being proud of the person you're with, appreciating what they do for you, telling those around about ur person and never letting effort become something you simply expect. Things that I never understood the importance of, things that were basic parts of love that i failed to show consistently.</p>
+
+      <p>You taught me that communication can't just happen when everything is already going wrong. I want to be someone who speaks about what he feels, listens properly when something hurts the person he loves and tries to understand it before defending themselves, making the other feel heard. I learned that sometimes listening and making somebody feel understood matters more than trying to defend myself and ur intentions dont matter as much as the hurt u cause with ur actions and thats what the focus should always be.</p>
+
+      <p>You made me look at the way I prioritise people. I understand now that love needs intention. It means making room for somebody in your life, not only fitting them in when it's convenient. It means making memories, planning dates, giving them your time even when ur with friends or family or studying and showing through your actions that they have an important place in your world.</p>
+
+      <p>You helped me become less afraid of being soft. Writing letters, saying I miss you, giving reassurance, being openly affectionate, posting the person I love, doing thoughtful things and letting people see that I care used to feel harder for me than they should have. The only opinion that matters the most is of the ones i love.</p>
+
+      <p>You also taught me a lot about appreciation. I wish I had understood some of it while you were giving it to me, but I understand now how precious patience, loyalty, reassurance, affection and somebody's time really are. I don't want to take those things for granted again.</p>
+
+      <p>Most importantly, you made me want to become a better man — not just so I could prove something to you, but because loving you showed me parts of myself that I genuinely wanted to change. Some of those lessons came painfully late, but they're still lessons I will carry with me for the rest of my life. I know a part of you will always hate the way i let u hurt for so long without changing, the way i made u wait and the trust i broke by not changing myself intime. Im sorry it took you having to make the painful decision of leaving for me to be open to understand that i wasnt doing enough like i thought i was. </p>
+
+      <p>So even beyond all the memories and everything I love about you, thank you for the ways knowing you changed me. A part of the person I'm becoming exists because I got to love you. Ill take this version of me throughout my life and ill never stop trying to improve</p>
+    </div>
+  </div>
+</section>
+
+<section id="heart">
+  <div class="letter">
+    <h2 class="section-title">Letting My Heart Out</h2>
+    <p>Thank you for everything. Thank you for being such a beautiful person for me to love, not only on the outside but on the inside too. You were an incredible person to love and you taught me so much about love, about myself, and about the kind of person I want to be.</p>
+    <p>I know there were times you needed me to show my feelings for you and I didn't do it in the way you deserved. I hate that it took losing so much for me to understand some of the things you had been asking from me all along. I'm sorry for the ways I hurt you. I know you've forgiven me for things, but I still wanted you to know that I understand them differently now and i dont say this in hopes you'll believe and come back I say this as i truly mean it regardless of what happens to us.</p>
+    <p>I don't want these words to be me trying to convince you to stay. I don't want love to feel like pressure. I just had so much love for you sitting inside me that I never properly knew how to say and I couldn't leave it forever unsaid. Ive always wnated to do this for you and now i finally can.</p>
+    <p>I'm proud of you. I'm proud of the person you are, the things you've carried, the ways you've grown and everything you're still becoming. Whatever happens from here doesn't erase what this chapter of my life meant to me. It was real. You were real. The love I had for you was real.</p>
+    <p>There are a thousand tiny things about you that I know I'll remember at random — a song, a smell, a stupid word, Hello Kitty, an iced latte, certain films or shows, a certain shade of pink and so much more — and for a second they'll take me back to you.</p>
+    <p>I will always love the time spent loving you, Maryam. I will never regret getting to know you so closely or having the privilege of seeing all those tiny sides of you that the rest of the world doesn't always get to see.</p>
+    <p>More than anything, Regardless of whether we ever get back together again, I hope life becomes gentle with you. I hope the things that weigh on you become lighter. I hope you become everything you've dreamed of becoming. And I hope, no matter where life takes us, you always know that ur special to me and you were loved very, very deeply. You will always remain a part of my prayers and may Allah finally make life easier for ur soul and may he help you find peace in urself forever. Ameeen</p>
+    <p style="text-align:right;font-family:'DM Serif Display';font-size:1.35rem;color:#93445f">With all my heart,<br>Haseeb ♡</p>
+  </div>
+</section>
+
+<footer>
+  🌸 made for Maryam, with love 🌸<br><br>
+  <small>Mohabbat karunga main jab tak hai jaan ♡</small>
+</footer>
+</body>
+</html>
